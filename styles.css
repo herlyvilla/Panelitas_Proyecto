@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Montserrat:wght@300;400&display=swap');
+
+body {
+    margin: 0;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background: #F2EAE4;
+    padding: 20px;
+}
+
+/* IMÁGENES */
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-center {
+    width: 500px; /* ajusta tamaño */
+}
+/* TEXTO */
+.right {
+    max-width: 500px;
+    color: #730303;
+}
+
+.right h1 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 90px;
+    line-height: 0.9;
+    margin: 0;
+}
+
+.right p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* BOTÓN */
+button {
+    margin-top: 30px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: none;
+    background: #f5e6d3;
+    color: #ff3b3b;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: white;
+}
