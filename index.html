@@ -2,27 +2,30 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Nutella Style</title>
+    <title>Pa Pa Panelitas</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png" type="image/png">
 </head>
 <body>
 
 <div class="navbar">
-    <div class="logo">Mi Web</div>
-
-    <div class="menu-icon" onclick="toggleMenu()">
-      ☰
-    </div>
-
-    <div class="menu" id="menu">
-      <a href="#">Inicio</a>
-      <a href="#">Servicios</a>
-      <a href="#">Contacto</a>
-    </div>
+  <div class="logo">
+    <img src="logo.png" alt="Logo">
   </div>
 
+  <div class="logoinfo">Pa'Pa Panelitas</div>
 
-<section class="hero">
+  <div class="menu" id="menu">
+    <a href="#hero">Inicio</a>
+    <a href="#contenido">Sobre nosotros</a>
+    <a href="#productos">Nuestros productos</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+</div>
+</div>
+
+
+<section id="hero" class="hero">
     
     <div class="left">
         <img src="Inicio.png"class="img-center">
@@ -38,8 +41,10 @@
 </section>
 
  
-<section class="banner">
+<section id="contenido" class="banner">
+  
     <div class="contenido">
+      <h2>MUCHO MAS QUE UN DULCE...</h2>
       <p>
         Los dulces de leche son una verdadera tentación para los amantes del sabor dulce. Con su textura suave y cremosa, y ese inconfundible 
         toque caramelizado, cada bocado es una experiencia que despierta los sentidos. Elaborados a partir de leche cuidadosamente cocinada y 
@@ -91,9 +96,9 @@
 
 </section>
 
-<section class="productos">
+<section id="productos" class="productos">
 
-  <h2>Nuestros Productos</h2>
+  <h2>NUESTROS PRODUCTOS</h2>
 
   <div class="contenedor-productos">
 
@@ -134,23 +139,23 @@
 
 </section>
 
-<section class="contacto">
+<section id="contacto" class="contacto">
 
   <div class="contacto-container">
 
     <!-- LADO IZQUIERDO -->
     <div class="contacto-info">
-      <p class="subtitulo">WE'RE HERE TO HELP YOU</p>
-      <h2>Discuss Your Chemical Solution Needs</h2>
+      <p class="subtitulo">HECHO CON DULZURA 🍯</p>
+      <h2>Hablemos de tus panelitas</h2>
 
       <p class="descripcion">
-        Are you looking for top-quality chemical solutions tailored to your needs?
-        Reach out to us.
+       ¿Buscas panelitas artesanales de la mejor calidad?
+    Estamos listos para endulzar tus ideas.
       </p>
 
       <div class="info-item">
         <span>📧</span>
-        <p>soluvent***@gmail.com</p>
+        <p>panelitas@gmail.com</p>
       </div>
 
       <div class="info-item">
@@ -162,20 +167,15 @@
     <!-- FORMULARIO -->
     <div class="contacto-form">
       <form>
-        <input type="text" placeholder="Name" required>
-        <input type="email" placeholder="Email" required>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo" required>
+        <input type="email" placeholder="Telefono" required>
+    
 
-        <select required>
-          <option value="">Industry</option>
-          <option>Food</option>
-          <option>Pharmaceutical</option>
-          <option>Chemical</option>
-        </select>
-
-        <textarea placeholder="Message" rows="4"></textarea>
+        <textarea placeholder="Mensaje" rows="4"></textarea>
 
         <button type="submit">
-          ➜ Get a Solution
+          ➜ Enviar
         </button>
       </form>
     </div>

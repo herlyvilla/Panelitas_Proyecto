@@ -3,7 +3,43 @@
 body {
     margin:0;
 }
+/*NAV*/
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #6c1313;
+  padding: 10px 20px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
 
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logoinfo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo img {
+  height: 40px; /* controla el tamaño del logo */
+}
+
+.menu {
+  display: flex; /* 👈 esto los pone en horizontal */
+  gap: 20px;     /* espacio entre enlaces */
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
 /* CONTENEDOR PRINCIPAL */
 .hero {
     
@@ -89,9 +125,9 @@ body {
 }
 
 .receta h2 {
-  font-family: 'Fredoka', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 150;
-  color: #401006;
+  color: #730303;
   margin-bottom: 30px;
 }
 
@@ -113,7 +149,7 @@ body {
 
 /* ITEMS */
 .item {
-  background: #f0d8c0;
+  background: #f5e6d3;
   padding: 15px;
   border-radius: 10px;
   font-size: 14px;
@@ -121,7 +157,7 @@ body {
 
 .item h4 {
   margin: 0 0 5px;
-  color: #b85c38;
+  color: #730303;
 }
 
 /* IMAGEN CENTRAL */
@@ -144,12 +180,14 @@ body {
 .productos {
   padding: 60px 20px;
   text-align: center;
-  background: #fff;
+  background: #eed2af;
 }
 
 .productos h2 {
   margin-bottom: 40px;
-  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 150;
+  color: #730303;
 }
 
 /* CONTENEDOR */
@@ -162,11 +200,11 @@ body {
 
 /* TARJETA */
 .producto {
-  background: #f9f9f9;
+  background: #deba92;
   border-radius: 15px;
   overflow: hidden;
   width: 300px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px #eed2af;
   transition: 0.3s;
 }
 
@@ -183,24 +221,25 @@ body {
 
 /* TEXTO */
 .producto .info {
+  font-family: 'Montserrat', sans-serif;
   padding: 20px;
 }
 
 .producto h3 {
   margin-bottom: 10px;
-  color: #b85c38;
+  color: #730303;
 }
 
 .producto p {
   font-size: 14px;
-  color: #555;
+  color: #000000;
 }
 
 
 
 /* SECCIÓN CONTACTO */
 .contacto {
-  background: #f4f6f9;
+  background: #FDDBAE;
   padding: 60px 20px;
 }
 
@@ -228,11 +267,11 @@ body {
 .contacto-info h2 {
   font-size: 32px;
   margin: 10px 0;
-  color: #1a1a1a;
+  color: #730303;
 }
 
 .descripcion {
-  color: #555;
+  color: #161616;
   margin-bottom: 20px;
 }
 
@@ -243,6 +282,7 @@ body {
   gap: 10px;
   margin: 10px 0;
   font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* FORMULARIO */
@@ -271,7 +311,7 @@ body {
 
 /* BOTÓN */
 .contacto-form button {
-  background: linear-gradient(to right, #007bff, #00c6ff);
+  background: linear-gradient(to right, #730303, #7b3131);
   color: white;
   border: none;
   padding: 12px;
