@@ -301,7 +301,6 @@ body {
 }
 
 .contacto-form input,
-.contacto-form select,
 .contacto-form textarea {
   padding: 10px;
   border: 1px solid #ddd;
